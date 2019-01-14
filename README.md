@@ -9,5 +9,5 @@
 The following instructions assumes that [ImageMagick](https://www.imagemagick.org/) is available:
 
 ```bash
-$ convert -background none cloud-native-and-go-leipzig.{svg,png}
+$ convert -background none cloud-native-and-golang-leipzig.{svg,png}
 ```
