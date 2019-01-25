@@ -11,3 +11,10 @@ The following instructions assumes that [ImageMagick](https://www.imagemagick.or
 ```bash
 $ convert -background none cloud-native-and-golang-leipzig.{svg,png}
 ```
+
+## Variant 1 for [meetup.com group](https://www.meetup.com/de-DE/Leipzig-Golang-and-Cloud/)
+
+```bash
+$ convert -resize 800x -background none cloud-native-and-golang-leipzig.{svg,png}
+$ convert cloud-native-and-golang-leipzig.png -gravity east -extent 1200x800 cloud-native-and-golang-leipzig-meetup.png
+```
